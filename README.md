@@ -3,6 +3,10 @@
 
 ---
 
+Sample Project in folder `MQTTWebGL`
+
+Demo: [https://ucl-casa-ce.github.io/unity-webgl-mqtt/](https://ucl-casa-ce.github.io/unity-webgl-mqtt/)
+
 ## Prerequisites
 
 - MQTT broker publishing over a secure WebSocket
@@ -150,7 +154,7 @@ The final step is to add the `MqttJs` library, which is called by the JavaScript
 
 The `index.html` file will run the Unity WebGL application that displays and updates the MQTT message received in real time.
 
-> NOTE: By default, Unity builds use `GZ compression`. If the webserver is not properly [configured](https://docs.unity3d.com/Manual/webgl-server-configuration-code-samples.html) or if you are running a local web server, it will throw an error (`Unable to parse Build/XXXX.framework.js.gz!`). In such cases, you can disable the compression by navigating to `Project Settings -> Player -> Publishing Settings -> Compression Format -> Disabled`. `GitHub Pages` supports gzip's content.
+> NOTE: By default, Unity builds use `GZ compression`. If the webserver is not properly [configured](https://docs.unity3d.com/Manual/webgl-server-configuration-code-samples.html) or if you are running a local web server, it will throw an error (`Unable to parse Build/XXXX.framework.js.gz!`). In such cases, you can disable the compression by navigating to `Project Settings -> Player -> Publishing Settings -> Compression Format -> Disabled`. `GitHub Pages` doesn't support gzip's content.
 
 ### Common Mistakes
 
