@@ -152,7 +152,7 @@ The `index.html` file will run the Unity WebGL application that displays and upd
 
 > NOTE: By default, Unity builds use `GZ compression`. If the webserver is not properly [configured](https://docs.unity3d.com/Manual/webgl-server-configuration-code-samples.html) or if you are running a local web server, it will throw an error (`Unable to parse Build/XXXX.framework.js.gz!`). In such cases, you can disable the compression by navigating to `Project Settings -> Player -> Publishing Settings -> Compression Format -> Disabled`. `GitHub Pages` supports gzip's content.
 
-###Common Mistakes
+### Common Mistakes
 
 - The name of the GameObject used in `SendMessage` is not unique.
 - The data type sent using `SendMessage` does not match the type received by the C# Script.
